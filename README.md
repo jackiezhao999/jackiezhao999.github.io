@@ -1,4 +1,3 @@
-'''html
 <head>
 <title>Jackie's HomePage</title>
 <style>
@@ -16,10 +15,10 @@
 		border-heigh:1000px
 	}
 	
-		a:link {color:#000000;background-color:Black;}      
-		a:visited {color:#00FF00;background-color:Black;}   
-		a:hover {color:#FF00FF;background-color:Black;}   
-		a:active {color:#0000FF;background-color:Black;}  
+		a:link {color:#000000;background-color:White;}      
+		a:visited {color:#00FF00;background-color:White;}   
+		a:hover {color:#FF00FF;background-color:White;}   
+		a:active {color:#0000FF;background-color:White;}  
 	
 </style>
 
@@ -34,17 +33,21 @@
 </div>
 
 <div id="menu">
-	<ul>
+	<ul style = "display:block;width:50px;">
 		<li><a href = "#home">Home</a></li>
 		<li><a href = "#news">News</a></li>
 		<li><a href = "#example">Example</a></li>
 		<li><a href = "#home">Home</a></li>
-  </ul>	
+       </ul>	
 	
 </div>
 
-<div id="content" class=" "></div>
+<div id="content" class=" ">
+<p>Here is the content!</p>
+</div>
 
-<div id="foot" class=" "></div>
+<div id="foot" class=" ">
+<p>Here is the foot!</p>
+</div>
 </body>
-'''
+
